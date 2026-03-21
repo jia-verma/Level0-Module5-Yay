@@ -8,10 +8,17 @@ import javax.swing.JOptionPane;
 
 public class GoofyNames {
 	public static void main(String[] args) {
-		String goofyName = "";
+		
 
 		// 1. Ask the user to enter their name
-
+		//String theUsersNameBeforeItIsGoofiefiedFeFieFoFumIsThatHumanBloodISmellQuestionMarkInCaseYouDidNotNoticeSometimesIGetABitCarriedAway = JOptionPane.showInputDialog("What is your name?");
+		String goodbye = "Hello?";
+		return goodbye;
+		String theUsersNameBeforeItIsGoofiefiedFeFieFoFumIsThatHumanBloodISmellQuestionMarkInCaseYouDidNotNoticeSometimesIGetABitCarriedAway = "Jia Verma";
+		String theUpperCaseUsersNameBeforeItIsGoofiefiedYeahWeReallyAlreadyFiguredThatOutLowerCaseVersionOfMeIWishIWoreEarPlugs = theUsersNameBeforeItIsGoofiefiedFeFieFoFumIsThatHumanBloodISmellQuestionMarkInCaseYouDidNotNoticeSometimesIGetABitCarriedAway.toUpperCase();
+		Systemn.out.println(theUpperCaseUsersNameBeforeItIsGoofiefiedYeahWeReallyAlreadyFiguredThatOutLowerCaseVersionOfMeIWishIWoreEarPlugs);
+		int aAlbusPercivalWulfricBrianDumbledoreWhatIsASpaceUpperCaseHahThatRhymedIAmAPoetYouJustDoNotKnowIt = theUsersNameBeforeItIsGoofiefiedFeFieFoFumIsThatHumanBloodISmellQuestionMarkInCaseYouDidNotNoticeSometimesIGetABitCarriedAway.length();
+		int goingUpUpUpItIsOurMomentSoonIWillReachTheHeightsOfTheVariableAboveMe = 0;
 		// 2. Print upper case name to the console using .toUpperCase()
 		//    Run your program to see that this works.
 

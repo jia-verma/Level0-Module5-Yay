@@ -17,7 +17,7 @@ class MyJavaProgram{
 		System.out.println("Tacos");
 	}
 }
-
+Tacos
 2.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -25,7 +25,7 @@ class MyJavaProgram{
 		System.out.println(book);
 	}
 }
-
+Cat in the Hat
 3.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -33,7 +33,7 @@ class MyJavaProgram{
 		System.out.println(book + " " + book);
 	}
 }
-
+Frankenstein Frankenstein
 4.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -41,7 +41,7 @@ class MyJavaProgram{
 		System.out.println("book");
 	}
 }
-
+book
 5.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -49,7 +49,7 @@ class MyJavaProgram{
 		System.out.println(i);
 	}
 }
-
+5
 6.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -58,7 +58,7 @@ class MyJavaProgram{
 		System.out.println(x + y);
 	}
 }
-
+-36
 7.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -72,7 +72,7 @@ class MyJavaProgram{
 		}
 	}
 }
-
+FOUR
 8.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -89,7 +89,8 @@ class MyJavaProgram{
 
 	}
 }
-
+CLICK
+CLICK
 9.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -111,7 +112,8 @@ class MyJavaProgram{
 
 	}
 }
-
+1
+4
 10.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -130,7 +132,9 @@ class MyJavaProgram{
 		}
 	}
 }
-
+0
+1
+2
 11.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -141,7 +145,8 @@ class MyJavaProgram{
 		System.out.print(y);
 	}
 }
-
+X
+Y
 12.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -152,7 +157,7 @@ class MyJavaProgram{
 		System.out.print(c + a + b);
 	}
 }
-
+CAB
 13.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -163,7 +168,7 @@ class MyJavaProgram{
 		System.out.print(c + a + b);
 	}
 }
-
+ACB
 14.
 class MyJavaProgram{
 	public static void main(String[] args){

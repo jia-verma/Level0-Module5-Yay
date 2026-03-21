@@ -8,6 +8,20 @@ public class HappyPet {
 	
 	public static void main(String[] args) {
 		// 2. Ask the user what kind of pet they want to buy, and store their answer in a variable
+		String breakingNewsHereOnTheQuestToEntertainTheUserWeAreGoingToGiveThemAPetHereIsBobWithACloserLook = JOptionPane.showInputDialog.("What kind of pet do you want. Here at JoyJo's Pet Store, we have Fish, Hamsters, Dogs, Cats and Turtles. If you don't want a pet, type No Pet.");
+		if (breakingNewsHereOnTheQuestToEntertainTheUserWeAreGoingToGiveThemAPetHereIsBobWithACloserLook equals.IgnoreCase("No Pet")){
+			//JOptionPane.showInputDialog("What would you like to do next?");
+			JOptionPane.showMessageDialog(null, "That's a shame, you would make a great pet parent")
+			String thankYouJennyInThisSectionWeWarnTheUserThatTheyNeedToTakeCareOfTheirPetsOrElseIWonderWhatTheirResponseWillBe = "Oops, nevermind!";
+		} else {
+			String thankYouJennyInThisSectionWeWarnTheUserThatTheyNeedToTakeCareOfTheirPetsOrElseIWonderWhatTheirResponseWillBe = JOptionPane.showInputDialog("Taking care of pets, even digital ones is a lot of work, especially at the start. If your pets don't have enough of a happiness level, they will die, and I will contact the PROGRAMMER. This is not a job for the light hearted, and don't just kill the pets for fun. Remember, as your computer, I have access to ALL YOUR PASSWORDS. If you still want to continue, type in 'Yes, I am ready.'");
+		}
+		if (thankYouJennyInThisSectionWeWarnTheUserThatTheyNeedToTakeCareOfTheirPetsOrElseIWonderWhatTheirResponseWillBe equals.("Yes, I am ready.")){
+
+		} else {
+			JOptionPane.showMessageDialog(null, "That's ok, though, backing out now is much better than you being burdened with loads of unwanted responsibilies, and a pet possibly dying.")
+			JOptionPane.showInputDialog("What would you like to do next? Do you want to draw shapes,")
+		}
 
 		// 3. REPEAT steps 4 - 7 enough times to make your pet happy!
 		

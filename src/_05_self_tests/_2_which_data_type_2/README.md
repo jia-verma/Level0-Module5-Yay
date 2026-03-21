@@ -13,25 +13,25 @@
    maxValue = 1000000; 
 
   
-   someWords = "Here are some words"; 
+   String someWords = "Here are some words"; 
 
   
-   c3PO = new Robot(); 
+   Robot c3PO = new Robot(); 
 
   
-   rand = new Random(); 
+   random rand = new Random(); 
 
   
-   minValue = -23; 
+   int minValue = -23; 
 
   
-   value =  JOptionPane.showInputDialog("Enter some data");
+   String value =  JOptionPane.showInputDialog("Enter some data");
 
   
-   myObject = new Object(); 
+   Object myObject = new Object(); 
 
   
-   randValue = random.nextInt(); 
+   random randValue = random.nextInt(); 
 
   
 
