@@ -9,7 +9,8 @@ public class EvilPolygonsChallenge {
 	
 	public static void main(String[] args) {
 		
-		//1. Create a new Robot
+		//1. Create a new Robot 
+		Robot rob = new Robot();
 
 		//2. Set the speed to 100
 

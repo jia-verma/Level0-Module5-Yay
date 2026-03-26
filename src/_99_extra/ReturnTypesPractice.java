@@ -11,19 +11,19 @@ public class ReturnTypesPractice {
 		
 	}
 	
-	static int method1() {
+	int a = static int method1() {
 		return HiddenTypes.unknown1;
 	}
-	static double method2() {
+	double b = static double method2() {
 		return HiddenTypes.unknown2;
 	}
-	static String method3() {
+	String c = static String method3() {
 		return HiddenTypes.unknown3;
 	}
-	static char method4() {
+	char d =static char method4() {
 		return HiddenTypes.unknown4;
 	}
-	static boolean method5() {
+	boolean e = static boolean method5() {
 		return HiddenTypes.unknown5;
 	}
 

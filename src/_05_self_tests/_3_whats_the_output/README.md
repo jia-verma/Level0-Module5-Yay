@@ -177,7 +177,7 @@ class MyJavaProgram{
 		}
 	}
 }
-
+01234
 15.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -186,7 +186,7 @@ class MyJavaProgram{
 		}
 	}
 }
-
+543210
 16.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -196,7 +196,7 @@ class MyJavaProgram{
 		}
 	}
 }
-
+horsehorsehorsehorsehorsehorse
 17.
 class MyJavaProgram{
 	public static void main(String[] args){
@@ -207,7 +207,7 @@ class MyJavaProgram{
 		System.out.println(d);
 	}
 }
-
+543210dynomite
 18.
 class MyJavaProgram{
 	public static void main(String[] args){
