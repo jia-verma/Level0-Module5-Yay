@@ -15,14 +15,45 @@ public class HappyPet {
 			String thankYouJennyInThisSectionWeWarnTheUserThatTheyNeedToTakeCareOfTheirPetsOrElseIWonderWhatTheirResponseWillBe = "Oops, nevermind!";
 		} else {
 			String thankYouJennyInThisSectionWeWarnTheUserThatTheyNeedToTakeCareOfTheirPetsOrElseIWonderWhatTheirResponseWillBe = JOptionPane.showInputDialog("Taking care of pets, even digital ones is a lot of work, especially at the start. If your pets don't have enough of a happiness level, they will die, and I will contact the PROGRAMMER. This is not a job for the light hearted, and don't just kill the pets for fun. Remember, as your computer, I have access to ALL YOUR PASSWORDS. If you still want to continue, type in 'Yes, I am ready.'");
-		}
-		if (thankYouJennyInThisSectionWeWarnTheUserThatTheyNeedToTakeCareOfTheirPetsOrElseIWonderWhatTheirResponseWillBe equals.("Yes, I am ready.")){
-
+		} if (thankYouJennyInThisSectionWeWarnTheUserThatTheyNeedToTakeCareOfTheirPetsOrElseIWonderWhatTheirResponseWillBe equals.("Yes, I am ready.")){
+			String wouldTheUserLikeToDrawShapesIJustRealizedThatDotEqualsIgnoreCaseDoesNotAccountForPunctuationIWonderHowYouWouldDoThatInJava = "Mooo";
 		} else {
-			JOptionPane.showMessageDialog(null, "That's ok, though, backing out now is much better than you being burdened with loads of unwanted responsibilies, and a pet possibly dying.")
-			JOptionPane.showInputDialog("What would you like to do next? Do you want to draw shapes,")
+			JOptionPane.showMessageDialog(null, "That's ok, though, backing out now is much better than you being burdened with loads of unwanted responsibilies, and a pet possibly dying.");
+			String wouldTheUserLikeToDrawShapesIJustRealizedThatDotEqualsIgnoreCaseDoesNotAccountForPunctuationIWonderHowYouWouldDoThatInJava = JOptionPane.showInputDialog("Do you want to draw a square, a triangle, or a pentagon? If you don't want to do any, just type your innermost thoughts, feelings, and desires.");
+		} if (wouldTheUserLikeToDrawShapesIJustRealizedThatDotEqualsIgnoreCaseDoesNotAccountForPunctuationIWonderHowYouWouldDoThatInJava.equalsIgnoreCase("square")){
+			drawSquare();
+		} if (wouldTheUserLikeToDrawShapesIJustRealizedThatDotEqualsIgnoreCaseDoesNotAccountForPunctuationIWonderHowYouWouldDoThatInJava.equalsIgnoreCase("triangle")){
+			drawTriangle();
+		} if (wouldTheUserLikeToDrawShapesIJustRealizedThatDotEqualsIgnoreCaseDoesNotAccountForPunctuationIWonderHowYouWouldDoThatInJava.equalsIgnoreCase("pentagon")){
+			drawPentagon();
 		}
-
+		public static void drawSquare(){
+			Robot rob = New Robot();
+			int numberOfSides = 0;
+			while (numberOfSides<4){
+			rob.Move(100);
+			rob.Turn(270);
+			numberOfSides = numberOfSides + 1;
+			}
+		}
+		public static void drawTriangle(){
+			Robot rob = New Robot();
+			int numberOfSides = 0;
+			while (number<3){
+				rob.Move(120);
+				rob.Turn(300);
+				numberOfSides = numberOfSides + 1;
+			}
+		}
+		public static void drawPentagon(){
+			Robot rob = New Robot();
+			int numberOfSides = 0;
+			while (numberOfSides<5){
+			rob.Move(75);
+			rob.Turn(240);
+			numberOfSides = numberOfSides + 1;
+		}
+	}
 		// 3. REPEAT steps 4 - 7 enough times to make your pet happy!
 		
 			// 4. Use showOptionDialog to ask the user what they want to do to make their pet happy
